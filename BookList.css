@@ -1,0 +1,204 @@
+    p{
+    	font-family: Overpass, Arial;
+    	font-size: 20px;
+    	line-height: 14px;
+    }    
+    a{
+    	color: black;
+    	text-decoration: double underline;
+    }
+
+    .book-images{
+    	margin-top: 18px;
+    	width: 250px;
+    	border-style: groove;
+    	border-color: black #9d004b #ffddf7;
+    	border-width: 10px;
+    	border-radius: 8px;
+    }
+
+	.book-text{
+		width: 300px;
+		font-family: Alkatra, Arial;
+		font-size: 17px;
+		line-height: 18px;
+	}
+
+	.wholebook{
+		width:300px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right:100px ;
+	}
+
+	.book-grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		background-image: url('background2.jpg');
+		padding-left: 100px;
+		padding-right: 40px;
+		padding-top: 20px;
+		border-style: ridge;
+		border-bottom-color: #00008B;
+		box-shadow: inset 1px 1px 3px 3px #00008B;
+		border-radius: 8px;
+	}
+
+	body{
+		margin: 0;
+		padding-top: 120px;
+		padding-left: 270px;
+	}
+
+	.header {
+		height:100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: white;
+		border-bottom-width: 2px;
+		border-bottom-style: groove;
+		border-bottom-color: #00008B;
+		box-shadow: inset 1px 1px 3px 3px #00008B;
+		background-image: url('green3.jpg');
+		border-radius: 8px;
+	}
+
+	.left-section{
+		width:300px;
+		display: flex;
+		align-items: center;
+	}
+
+	.middle-section{
+		width: 360px;
+		display: flex;
+		align-items: center;
+
+	}
+
+	.right-section{
+		width: 500px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-shrink: 0;
+	}
+
+	.booklist2{
+		height:100px;      
+	}
+
+	.name{
+		font-family: Alkatra,Arial;
+		font-size:18px;
+		font-type:bold,italic;
+    padding-left: 30px;
+	}
+
+	.mybooks-button,
+	.fiction-button,
+	.nonfiction-button,
+	.audiobooks-button,
+	.ebooks-button {
+		background-color: #0041C2;
+    color:white;
+    cursor: pointer;
+    margin-right:8px;
+    transition: opacity 0.15s;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    vertical-align: top;
+    border-radius:6px; 
+    border-color: #00BFFF;
+		border-style:groove;
+    border-width: 4px;
+    font-weight: italic;
+    font-size: 13px;
+    margin-left: 2px;
+    transition: box-shadow 0.15s;
+    display: block;
+	}
+    
+    .mybooks-button:hover {
+	    box-shadow: 5px 5px 10px grey; 
+    }
+    .fiction-button:hover {
+	    box-shadow: 5px 5px 10px grey; 
+    }
+
+	.nonfiction-button:hover {
+	    box-shadow: 5px 5px 10px grey; 
+    }
+	.audiobooks-button:hover {
+	    box-shadow: 5px 5px 10px grey; 
+    }
+	.ebooks-button:hover {
+	    box-shadow: 5px 5px 10px grey; 
+    }
+
+    .search-button{
+    	height: 36px;
+    	width: 30px;
+    	border-width:3px;
+    	border-style:groove ;
+    	border-color:#00008B ;
+    	border-radius: 2px;
+    	box-shadow: inset 1px 2px 3px gray;
+    	margin-left: -1px;
+    }
+
+    .search-bar {
+    	width:230px;
+    	height:34px;
+    	padding-left:12px;
+    	font-size:16px;
+    	border-width:3px;
+    	border-style:groove;
+    	border-color:#00008B;
+    	border-radius: 2px;
+    	box-shadow: inset 1px 2px 3px gray;
+    	margin-left: 20px;
+    }
+
+    .search-bar :: placeholder{
+    	font-family:Alkatra,Arial;
+    	font-size: 19px;
+    }
+
+    .sidebar{
+    	position: fixed;
+    	left:20px;
+    	bottom: 0;
+    	top: 120px;
+    	background-image: url('green3.jpg');
+    	width: 220px;
+      height: 600px;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	border-style: groove;
+		border-bottom-color: #00008B;
+		box-shadow: inset 1px 1px 3px 3px #00008B;
+		border-radius: 8px;
+    }
+
+    .sidebar-link{
+    	height:110px;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    .icons img{
+    	height: 24px;
+    }
+
+    .icons{
+    	padding-right: 30px;
+    }
